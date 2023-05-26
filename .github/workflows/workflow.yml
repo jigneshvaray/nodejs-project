@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: '${{ secrets.DOCKERHUB_USERNAME }}'/nodejs-CI-CD-26-05-2023:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/nodejs-CI-CD-26-05-2023:latest
